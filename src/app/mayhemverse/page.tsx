@@ -12,8 +12,8 @@ export default function Mayhemverse() {
   return (
     <div className="relative overflow-hidden">
       {/* Starfield */}
-        <div className={`absolute inset-0 ${window.matchMedia('(max-width: 768px)').matches ? 'hidden' : 'w-full'} `}>
-
+        <div className="absolute inset-0 hidden md:block w-full">
+  
           <div className="relative h-full w-full bg-slate-950 z-0">
             <div className="fadeInVerySlowly [&>div]:absolute">
               <VideoGallery videos={videos} intervalMs={20000} opacity={50}/>
