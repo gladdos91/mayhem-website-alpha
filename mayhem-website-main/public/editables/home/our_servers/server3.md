@@ -1,0 +1,2 @@
+### Reliable servers & Uptime
+#### Expect reliable uptime for all the games we run. We actively try and keep all services running. View the current status of our games on the [status page](https://mayhem-gaming.com/status).
